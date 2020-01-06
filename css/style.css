@@ -1,0 +1,278 @@
+*
+{
+	padding: 0;
+	margin: 0; 
+	box-sizing: border-box;
+	font-family: 'josefin sans', sans-serif;
+}
+/*carousel backgraoud*/
+.carousel-inner img{
+	width: 100%;
+	height:90vx;
+}
+/*about us pict*/
+.aboutimg{
+	width: 100%;
+	height: 250px! important;
+}
+/*our services*/
+.package-wrapper{
+	padding:20px 40px;
+	height: auto;
+}
+.package-card{
+
+	height:auto;
+	text-align: center !important;
+	padding-bottom:20px;
+	background-color: #2C3E50;
+	color:#FFF;
+	
+}
+.package-card .card-img-top{
+
+	height: 120px;
+}
+
+.package-card-heading{
+
+	font-size: 1rem;
+	padding-top:15px;
+	padding-bottom: 10px ;
+	text-transform: uppercase;
+}
+
+.package-price{
+
+	color: #FFF;
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: 800;
+}
+.package-menu{
+
+	margin:0 auto;
+}
+
+.package-menu li{
+	
+	color: #FFCC00;
+	text-align: center;
+	border-bottom: 1px dotted #FFF;
+	padding:10px 10px;
+	width:150px;
+	font-size: 0.9em;
+}
+
+.package-intro{
+	
+	padding:15px 20px;
+	text-align: justify;
+}
+
+.btn-price{
+	
+	background-color: #FFCC00;
+	color:#2C3E50;
+	width:150px;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 30px;
+}
+/* ---- Destinations ---- */
+.destination-wrapper{
+
+	width:100%;
+	height:250px;
+		/*outline:1px red solid;*/
+	margin:10px 0;
+	position:relative;
+	overflow:hidden;
+	}
+
+.destination-thumbnail{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	transition:all 0.3s ease-in;
+
+	}
+
+.destination-wrapper:hover .destination-thumbnail{
+
+	transform:scale(1.2);
+	
+}
+.destination-banner{
+
+	position: absolute;
+	height:60px;
+	width:100%;
+	bottom:0px;
+	background-color: #000;
+	opacity:0.8;
+	color:#FFF;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	transition:all 0.3s ease-in;
+}
+/* ---- Things-to-do ---- */
+
+
+
+.things-to-do-wrapper{
+
+	padding:0;
+}
+
+.things-to-do-card{
+	position: relative;
+	width:100%;
+	height:250px;
+	border-radius: 0px;
+	border:none;
+	overflow: hidden;
+
+}
+
+.things-to-do{
+
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.things-to-do-overlay{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #333;
+	z-index: 3;
+	top:0;
+	opacity: 0;
+	transition:all 0.3s ease;
+}
+.things-to-do-heading{
+	
+
+	position:absolute;
+	opacity:0;
+	color:#FFF;
+	font-size: 1em;
+	z-index: 4;
+	width:100%;
+	height: 100%;
+	top:0;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.things-to-do-heading h4{
+	text-align: center;
+	font-size: 1em;
+	font-weight: 300;
+	transform:scale(0);
+	transition:all 0.4s ease;
+	text-transform: uppercase;
+}
+
+.things-to-do-heading h4:after{
+
+	content: "";
+	position: absolute;
+	width:120px;
+	height: 1px;
+	background-color: #FFF;
+	left:-20px;
+	top:25px;
+}
+.things-to-do-wrapper:hover .things-to-do-overlay{
+
+	opacity:0.6;
+}
+
+.things-to-do-wrapper:hover .things-to-do-heading{
+
+	opacity:1;
+
+	}
+
+.things-to-do-wrapper:hover .things-to-do-heading>h4{
+
+	transform:scale(1.2);
+
+}
+/* ---- Subscription ---- */
+.subscription{
+	text-align: center;
+	background: #C4D9C4 ;
+
+}
+/*---- Footer  ----*/
+.main-footer{
+	background: #EEFBEE ;
+}
+.footer-top .footer-top-col{
+
+	text-align: left;
+}
+.footer-top h5{
+
+	color: #AE14F0 ;
+}
+.footer-top ul{
+
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	text-align: left;
+}
+.footer-top ul li{
+
+	list-style-type:none;
+	font-size:0.8em; 
+	padding:0.5em 0;
+}
+.footer-bottom{
+	
+	margin: 30px 0;
+	display: flex;
+	flex-direction:row;
+
+}
+.footer-images li img{
+
+	width:110px;
+	height:40px;
+	margin-top: 15px;
+}
+.footer-logo{
+
+	
+		vertical-align: top;
+		width:150px;
+		height:60px;
+	}
+
+	
+
+	.footer-bottom .footer-images li{
+	
+		list-style-type: none;
+		display: inline-block;
+	}
+
+.testimonial-item>img{
+    border-radius:50%;
+    display:block;
+    float:none;
+    height:50px!important;
+    margin:0 auto 20px;
+    width:50px!important
+
+}
+
