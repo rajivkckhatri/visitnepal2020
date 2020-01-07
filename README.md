@@ -6,7 +6,23 @@ VisitNepal2020 based on website blog which is designed for to guide visitor and 
 
 visit Nepal website strive to make your holidays not only comfortable, hassle-free and enjoyable, but an experience to cherish and remember. Visit Nepal Website enthusiastic travel executives strives to provide you the perfect solution to your travel needs, by first understanding your requirements, budgetary constraints and your wish list and then creating a package which provides you with the holistic experience of the places you are visiting, not only covering your interest points but presenting to you unimagined aspects of the Nepal. 
 
+Guest users—
 
+Visit the Website
+Guest user can enquiry
+user can book tour packages
+
+Project Name : VISITNEPAL2020  -VN20
+
+Technology Implemented : Apache Server
+
+Language Used                   :  PHP
+
+Database                              :  My SQL
+
+User Interface Design       :  HTML, AJAX,JQUERY,JAVASCRIPT
+
+Web Browser                      :  Mozilla, Google Chrome, IE8,OPERA
 
 Software Requirement:
 
@@ -17,3 +33,14 @@ Software Requirement:
 •	MySQL database
 
 •	XAMPP server
+
+Installation Steps(Configuration)
+1. Download and Unzip file on your local system.
+2. Put visitnepal2020 folder inside root directory
+
+Database Configuration
+
+Open phpmyadmin
+Create Database vndata and searchbar
+Import database vndata.sql (available inside zip package)
+Open Your browser put inside browser “http://localhost/vndata”
